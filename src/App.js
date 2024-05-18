@@ -4,6 +4,8 @@ import InstallerHomepage from './components/InstallerHomepage';
 import './App.css';
 import ReactDomServer from 'react-dom/server';
 import PopupTest from './components/alert';
+import FeedbackForm from './components/FeedbackForm';
+
 
 var counter = 1000;
 function Fnnuctiondotjs() {
@@ -23,10 +25,8 @@ function Fnnuctiondotjs() {
 function App() {
   return (
     <div className="App">
-      <header className="bingus-class">
-        <h1 aria-setsize={2}>binguss bungsu bingus bnigus bnigus bingus</h1>
-      </header>
       <InstallerHomepage />
+      <FeedbackForm />
     </div>
   );
 }
