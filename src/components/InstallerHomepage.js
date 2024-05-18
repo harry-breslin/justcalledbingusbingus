@@ -78,38 +78,46 @@ function InstallerHomepage() {
           {renderContent()}
         </div>
       </main>
-      <footer className="footer" onMouseEnter={handleMouseEnter}>
+      <footer className="footer">
         {swap ? (
           <>
-            <button
-              className="button left-button"
-              onClick={prevStep}
-              disabled={step === 1}
-            >
-              Back
-            </button>
-            <button
-              className="button primary right-button"
-              onClick={nextStep}
-            >
-              {step === 4 ? 'Finish' : 'Next'}
-            </button>
+            <div className="button-container" onMouseEnter={handleMouseEnter}>
+              <button
+                className="button left-button"
+                onClick={prevStep}
+                disabled={step === 1}
+              >
+                Back
+              </button>
+            </div>
+            <div className="button-container" onMouseEnter={handleMouseEnter}>
+              <button
+                className="button primary right-button"
+                onClick={nextStep}
+              >
+                {step === 4 ? 'Finish' : 'Next'}
+              </button>
+            </div>
           </>
         ) : (
           <>
-            <button
-              className="button primary right-button"
-              onClick={nextStep}
-            >
-              {step === 4 ? 'Finish' : 'Next'}
-            </button>
-            <button
-              className="button left-button"
-              onClick={prevStep}
-              disabled={step === 1}
-            >
-              Back
-            </button>
+            <div className="button-container" onMouseEnter={handleMouseEnter}>
+              <button
+                className="button primary right-button"
+                onClick={nextStep}
+              >
+                {step === 4 ? 'Finish' : 'Next'}
+              </button>
+            </div>
+            <div className="button-container" onMouseEnter={handleMouseEnter}>
+              <button
+                className="button left-button"
+                onClick={prevStep}
+                disabled={step === 1}
+              >
+                Back
+              </button>
+            </div>
           </>
         )}
       </footer>
