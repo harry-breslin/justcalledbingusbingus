@@ -1,7 +1,7 @@
 import React from 'react';
 import License from './License';
 
-function StepContent({ step }) {
+function StepContent({ step, onQuestionAnswered }) {
   switch (step) {
     case 1:
       return (
@@ -15,7 +15,7 @@ function StepContent({ step }) {
         <>
           <h2>Step 2: License Agreement</h2>
           <p>Please read and accept the license agreement to proceed.</p>
-          <License />
+          <License onQuestionAnswered={onQuestionAnswered} />
         </>
       );
     case 3:

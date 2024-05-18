@@ -5,23 +5,28 @@ import FooterButtons from './FooterButtons';
 import StepContent from './StepContent';
 
 function InstallerHomepage() {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
+    
+    const [step, setStep] = useState(1);
+    const [swap, setSwap] = useState(false);
+    const [questionAnswered, setQuestionAnswered] = useState(false);
 
-  const [step, setStep] = useState(1);
-  const [swap, setSwap] = useState(false);
+    const handleQuestionAnswered = () => {
+      setQuestionAnswered(true);
+    };
 
   const nextStep = () => {
+    if (step === 3) {
     var randomString = ``;
     for (let i = 0; i < 40; i++) {
-      randomString += Math.random().toString(36).substring(2, 10);
+        randomString += Math.random().toString(36).substring(2, 10);
+        alert(`ERROR: ${randomString}`);
     }
-    if (step === 2) {
-      alert(`ERROR: ${randomString}`);
     } if (step < 4) {
       setStep(step + 1);
     } else {
-      for (let i = 0; i < 10; i++) {
-      alert(`Press the OK button to navigate to the feedback form` + `.`.repeat(i));
+      for (let i = 0; i < 5; i++) {
+        alert(`Press the OK button to navigate to the feedback form` + `.`.repeat(i));
       }
       navigate('/feedback-form'); /* navigate to feedback form page */
     }
@@ -50,11 +55,11 @@ function InstallerHomepage() {
           <div className={`step ${step === 4 ? 'active' : ''}`}>4. Completion</div>
         </div>
         <div className="content">
-          <StepContent step={step} />
+          <StepContent step={step} onQuestionAnswered={handleQuestionAnswered} />
         </div>
       </main>
       <footer className="footer">
-        <FooterButtons swap={swap} nextStep={nextStep} prevStep={prevStep} step={step} handleMouseEnter={handleMouseEnter} />
+        <FooterButtons swap={swap} nextStep={nextStep} prevStep={prevStep} step={step} handleMouseEnter={handleMouseEnter} finalQuestionAnswered={questionAnswered} />
       </footer>
     </div>
   );

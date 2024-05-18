@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FooterButtons({ swap, nextStep, prevStep, step, handleMouseEnter }) {
+function FooterButtons({ swap, nextStep, prevStep, step, handleMouseEnter, finalQuestionAnswered }) {
   const backButtonContent = (
     <button
         className={`button left-button ${step === 1 ? 'disabled' : ''}`}
@@ -13,7 +13,7 @@ function FooterButtons({ swap, nextStep, prevStep, step, handleMouseEnter }) {
 
   const nextButtonContent = (
     <button
-      className="button primary right-button"
+      className={`button primary right-button ${step === 2 && !finalQuestionAnswered ? 'disabled' : ''}`}
       onClick={nextStep}
       onMouseEnter={handleMouseEnter}
     >
