@@ -10,14 +10,11 @@ export const generateRandomAnswers = (questions) => {
   const generateRandomAnswer = () => {
     const randomStrings = [
       'Yes, absolutely!',
-      'No, not really.',
+      'Yes, also I think bingus bingus bot should have won Hackiethon!',
       'It was great!',
-      'Could be better.',
       'I loved it!',
       'It was okay.',
-      'Needs improvement.',
       'Fantastic!',
-      'Not satisfied.',
       'Highly recommend!',
     ];
     return randomStrings[Math.floor(Math.random() * randomStrings.length)];
