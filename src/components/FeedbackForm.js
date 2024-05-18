@@ -83,13 +83,70 @@ const FeedbackForm = () => {
         { id: 133, text: 'If HackMelbourne were a type of weather, what would it be and why?' },
         { id: 134, text: 'If HackMelbourne were a flavour of ice cream, what flavour would it be?' },
         { id: 135, text: 'If HackMelbourne were a fictional character, who would it be and why?' },
+      ];
 
+        const unrelatedQuestions = [
+          { id: 136, text: 'If you could have any superpower, what would it be and why?' },
+          { id: 137, text: 'What\'s the most unusual thing you\'ve ever eaten?' },
+          { id: 138, text: 'If you could visit any place in the world, where would it be?' },
+          { id: 139, text: 'What\'s your favourite season and why?' },
+          { id: 140, text: 'If you could time travel, would you go to the past or the future?' },
+          { id: 141, text: 'What\'s your favourite board game?' },
+          { id: 142, text: 'If you were a fruit, which one would you be and why?' },
+          { id: 143, text: 'What\'s the last book you read and loved?' },
+          { id: 144, text: 'What\'s your favourite hobby outside of work or school?' },
+          { id: 145, text: 'If you could have dinner with any historical figure, who would it be?' },
+          { id: 146, text: 'What\'s the weirdest dream you\'ve ever had?' },
+          { id: 147, text: 'If you were a colour, which one would you be and why?' },
+          { id: 148, text: 'What\'s your favourite way to spend a rainy day?' },
+          { id: 149, text: 'If you could instantly learn any skill, what would it be?' },
+          { id: 150, text: 'What\'s your favourite ice cream flavour?' },
+          { id: 151, text: 'If you were an animal, which one would you be and why?' },
+          { id: 152, text: 'What\'s the most interesting place you\'ve ever visited?' },
+          { id: 153, text: 'If you could be any fictional character for a day, who would you choose?' },
+          { id: 154, text: 'What\'s your favourite type of music to listen to while relaxing?' },
+          { id: 155, text: 'If you could live in any time period, which one would you choose and why?' },
+          { id: 156, text: 'What\'s your go-to comfort food?' },
+          { id: 157, text: 'If you could swap lives with anyone for a day, who would it be?' },
+          { id: 158, text: 'What\'s your favourite movie of all time?' },
+          { id: 159, text: 'If you could speak any language fluently, which one would you choose?' },
+          { id: 160, text: 'What\'s the most memorable concert you\'ve ever attended?' },
+          { id: 161, text: 'If you had to describe yourself in three words, what would they be?' },
+          { id: 162, text: 'What\'s your favourite outdoor activity?' },
+          { id: 163, text: 'If you could only eat one type of cuisine for the rest of your life, what would it be?' },
+          { id: 164, text: 'What\'s your favourite holiday destination?' },
+          { id: 165, text: 'If you could have any job in the world, what would it be?' },
+          { id: 166, text: 'What\'s the best gift you\'ve ever received?' },
+          { id: 167, text: 'If you were a superhero, what would your name be?' },
+          { id: 168, text: 'What\'s your favourite way to unwind after a long day?' },
+          { id: 169, text: 'If you could be any age for a week, what age would you be and why?' },
+          { id: 170, text: 'What\'s the strangest talent you have?' },
+          { id: 171, text: 'If you could have any animal as a pet, what would it be?' },
+          { id: 172, text: 'What\'s your favourite cartoon character?' },
+          { id: 173, text: 'If you could change one thing about the world, what would it be?' },
+          { id: 174, text: 'What\'s your favourite dessert?' },
+          { id: 175, text: 'If you could live in any country, which one would it be and why?' },
+          { id: 176, text: 'What\'s your favourite quote or saying?' },
+          { id: 177, text: 'If you could have any car, which one would you choose?' },
+          { id: 178, text: 'What\'s your favourite way to spend a weekend?' },
+          { id: 179, text: 'If you could meet any celebrity, who would it be?' },
+          { id: 180, text: 'What\'s your favourite type of weather?' },
+          { id: 181, text: 'If you could play any musical instrument, which one would you choose?' },
+          { id: 182, text: 'What\'s your favourite memory from childhood?' },
+          { id: 183, text: 'If you could be a famous athlete, what sport would you play?' },
+          { id: 184, text: 'What\'s your favourite thing to do on a lazy Sunday?' },
+          { id: 185, text: 'If you could invent something, what would it be?' },
+        
         
   ];
 
-  const relevantRandomQuestions = relevantQuestions.sort(() => 0.5 - Math.random()).slice(0, 8);
-  const funRandomQuestions = funQuestions.sort(() => 0.5 - Math.random()).slice(0, 20);
-  const generatedQuestions = [...relevantRandomQuestions, ...funRandomQuestions];
+        
+  
+
+  const relevantRandomQuestions = relevantQuestions.sort(() => 0.5 - Math.random()).slice(0, 4);
+  const funRandomQuestions = funQuestions.sort(() => 0.5 - Math.random()).slice(0, 5);
+  const unrelatedRandomQuestions = unrelatedQuestions.sort(() => 0.5 - Math.random()).slice(0, 20);
+  const generatedQuestions = [...relevantRandomQuestions, ...funRandomQuestions, ...unrelatedRandomQuestions];
 
   const [answers, setAnswers] = useState({});
   const [isFinished, setIsFinished] = useState(false);
