@@ -87,8 +87,8 @@ const FeedbackForm = () => {
         
   ];
 
-  const relevantRandomQuestions = relevantQuestions.sort(() => 0.5 - Math.random()).slice(0, 5);
-  const funRandomQuestions = funQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
+  const relevantRandomQuestions = relevantQuestions.sort(() => 0.5 - Math.random()).slice(0, 8);
+  const funRandomQuestions = funQuestions.sort(() => 0.5 - Math.random()).slice(0, 20);
   const generatedQuestions = [...relevantRandomQuestions, ...funRandomQuestions];
 
   const [answers, setAnswers] = useState({});

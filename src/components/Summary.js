@@ -8,13 +8,15 @@ const Summary = ({ answers }) => {
   return (
     <div className="summary-container">
       <h2>Feedback Summary</h2>
-      <ul>
-        {answerPairs.map(([questionId, { question, answer }]) => (
-          <li key={questionId}>
-            <strong>{question}</strong><br></br>{answer}
-          </li>
-        ))}
-      </ul>
+      <div className="answer-scroll-container">
+        <ul className="answer-list">
+          {answerPairs.map(([questionId, { question, answer }]) => (
+            <li key={questionId}>
+              <strong>{question}</strong>: {answer}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

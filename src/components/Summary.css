@@ -26,3 +26,8 @@
     margin-bottom: 5px;
   }
   
+  .answer-scroll-container {
+    max-height: 500px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
