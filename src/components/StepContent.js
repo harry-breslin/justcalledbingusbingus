@@ -25,6 +25,7 @@ function StepContent({ step, onQuestionAnswered }) {
           <h2>Step 3: Installation</h2>
           <p>The installation process is in progress. Please wait...</p>
           <ProgressBar />
+		  <p> .</p>
         </>
       );
     case 4:

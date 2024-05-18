@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './ProgressBar.css'; // Assuming you have a separate CSS file for styles
+import './ProgressBar.css';
 
 const ProgressBar = () => {
   const [progress, setProgress] = useState(0);
@@ -13,7 +13,7 @@ const ProgressBar = () => {
         }
         return prevProgress + 1;
       });
-    }, 100); // Adjust the interval timing as needed
+    }, 100);
     return () => clearInterval(interval);
   }, []);
 
