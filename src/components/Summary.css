@@ -1,11 +1,12 @@
 /* src/components/Summary.css */
 .summary-container {
-    background-color: #fff;
+    background-color: #ffffff9c;
     padding: 20px;
-    margin: 10px 0;
+    margin: 5px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: left;
+    
   }
   
   .summary-container h2 {
@@ -20,14 +21,15 @@
   
   .summary-container ul li {
     background-color: #f9f9f9;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-bottom: 5px;
   }
   
   .answer-scroll-container {
-    max-height: 500px; /* Adjust the height as needed */
+    height: 70vh;
+    margin: 0 auto;
     overflow-y: auto;
   }
   

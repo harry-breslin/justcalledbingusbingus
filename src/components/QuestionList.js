@@ -1,4 +1,4 @@
-// src/components/QuestionList.js
+
 import React, { useState } from 'react';
 import Question from './Question';
 import './QuestionList.css';
