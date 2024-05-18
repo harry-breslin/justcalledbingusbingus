@@ -1,5 +1,6 @@
 import React from 'react';
 import License from './License';
+import ProgressBar from './ProgressBar';
 
 function StepContent({ step, onQuestionAnswered }) {
   switch (step) {
@@ -23,9 +24,7 @@ function StepContent({ step, onQuestionAnswered }) {
         <>
           <h2>Step 3: Installation</h2>
           <p>The installation process is in progress. Please wait...</p>
-          <div className="progress-bar">
-            <div className="progress" style={{ width: '70%' }}></div>
-          </div>
+          <ProgressBar />
         </>
       );
     case 4:
