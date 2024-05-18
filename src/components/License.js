@@ -37,7 +37,6 @@ function License({ onQuestionAnswered }) {
     <div>
       <textarea className="license-text" readOnly value={licenseText} />
       <div className="license-buttons">
-        {/* <button className="button primary license-button" onClick={() => setAccepted(true)}>Accept License</button> */}
         <button className="button primary license-button" disabled={!buttonEnabled} onClick={() => setAccepted(true)}>
           {buttonEnabled ? 'Accept License' : `Accept License (${countdown})`}
         </button>
