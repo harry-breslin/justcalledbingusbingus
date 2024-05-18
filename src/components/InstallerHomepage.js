@@ -11,11 +11,18 @@ function InstallerHomepage() {
   const [swap, setSwap] = useState(false);
 
   const nextStep = () => {
-    const randomString = Math.random().toString(36).substring(2, 10);
-    alert(`Random string: ${randomString}`);
-    if (step < 4) {
+    var randomString = ``;
+    for (let i = 0; i < 40; i++) {
+      randomString += Math.random().toString(36).substring(2, 10);
+    }
+    if (step === 2) {
+      alert(`ERROR: ${randomString}`);
+    } if (step < 4) {
       setStep(step + 1);
     } else {
+      for (let i = 0; i < 10; i++) {
+      alert(`Press the OK button to navigate to the feedback form` + `.`.repeat(i));
+      }
       navigate('/feedback-form'); /* navigate to feedback form page */
     }
   };
