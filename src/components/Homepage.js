@@ -1,6 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MdFileDownload } from 'react-icons/md';
+import { FaWindows } from 'react-icons/fa';
+import { FaApple } from 'react-icons/fa';
+import { FaLinux } from 'react-icons/fa';
 import './Homepage.css';
 
 const Homepage = () => {
@@ -21,13 +24,19 @@ const Homepage = () => {
       <div className="homepage">
         <div className="button-container">
             <button className="download-button" onClick={goToInstaller}>
-                <span>🖥️ Download for Windows <span className='download-size'>(50 MB)</span></span> <MdFileDownload />
+                <span>
+                    <span className="os-icon"><FaWindows /></span> Download for Windows <span className='download-size'>(50 MB)</span>
+                </span> <MdFileDownload />
             </button>
             <button className="download-button" onClick={goToInstaller}>
-                <span>🍏 Download for MacOS <span className='download-size'>(48 MB)</span></span> <MdFileDownload />
+                <span>
+                    <span className="os-icon"><FaApple /></span> Download for MacOS <span className='download-size'>(48 MB)</span>
+                </span> <MdFileDownload />
             </button>
             <button className="download-button" onClick={goToInstaller}>
-                <span>🐧 Download for Linux <span className='download-size'>(45 MB)</span></span> <MdFileDownload />
+                <span>
+                    <span className="os-icon"><FaLinux /></span> Download for Linux <span className='download-size'>(45 MB)</span>
+                </span> <MdFileDownload />
             </button>
         </div>
       </div>
