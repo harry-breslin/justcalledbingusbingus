@@ -4,7 +4,7 @@
   /*left: 0; /* Start from the left edge of the window */
   width: 80%; /* Full viewport width */
   border-radius: 4px;
-  background-color: #f3f3f3;
+  background-color: transparent;
   
   z-index: 1000; /* High z-index to ensure it is above other elements */
 }
