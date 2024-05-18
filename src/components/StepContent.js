@@ -25,7 +25,7 @@ function StepContent({ step, onQuestionAnswered }) {
           <h2>Step 3: Installation</h2>
           <p>The installation process is in progress. Please wait...</p>
           <ProgressBar />
-		  <p> .</p>
+          <p style={{ color: 'white' }}>.</p> {/* so there is space for the progress bar to go in (easier than doing css) */}
         </>
       );
     case 4:
