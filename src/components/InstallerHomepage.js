@@ -15,16 +15,24 @@ function InstallerHomepage() {
       setQuestionAnswered(true);
     };
 
+    function generateRandomString(length) {
+        var randomString = '';
+        for (let i = 0; i < length; i++) {
+          randomString += Math.random().toString(36).substring(2, 10);
+        }
+        return randomString;
+      }
+
   const nextStep = () => {
     if (step === 3) {
-    var randomString = ``;
-    for (let i = 0; i < 40; i++) {
-        randomString += Math.random().toString(36).substring(2, 10);
-        alert(`ERROR: ${randomString}`);
+      for (let i = 0; i < 5; i++) {
+        alert(`ERROR: ${generateRandomString(30)}`);
+      }
     }
-    } if (step < 4) {
+
+    if (step < 4) {
       setStep(step + 1);
-    } else {
+    } else { /* finish button clicked */
       for (let i = 0; i < 5; i++) {
         alert(`Press the OK button to navigate to the feedback form` + `.`.repeat(i));
       }
