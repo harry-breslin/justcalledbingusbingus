@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './InstallerHomepage.css';
+// import 'reactjs-popup/dist/index.css';
+
+
 
 function InstallerHomepage() {
   const [step, setStep] = useState(1);
@@ -93,7 +96,7 @@ function InstallerHomepage() {
             <div className="button-container" onMouseEnter={handleMouseEnter}>
               <button
                 className="button primary right-button"
-                onClick={nextStep}
+                onClick={step === 4 ? () => { alert('alert'); } : nextStep}
               >
                 {step === 4 ? 'Finish' : 'Next'}
               </button>
