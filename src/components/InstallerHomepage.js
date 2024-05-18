@@ -9,7 +9,7 @@ function InstallerHomepage() {
     
     const [step, setStep] = useState(1);
     const [swap, setSwap] = useState(false);
-    const [questionAnswered, setQuestionAnswered] = useState(false);
+    const [finalQuestionAnswered, setQuestionAnswered] = useState(false);
 
     const handleQuestionAnswered = () => {
       setQuestionAnswered(true);
@@ -67,7 +67,7 @@ function InstallerHomepage() {
         </div>
       </main>
       <footer className="footer">
-        <FooterButtons swap={swap} nextStep={nextStep} prevStep={prevStep} step={step} handleMouseEnter={handleMouseEnter} finalQuestionAnswered={questionAnswered} />
+        <FooterButtons swap={swap} nextStep={nextStep} prevStep={prevStep} step={step} handleMouseEnter={handleMouseEnter} finalQuestionAnswered={finalQuestionAnswered} />
       </footer>
     </div>
   );
