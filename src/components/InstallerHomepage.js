@@ -11,6 +11,7 @@ function InstallerHomepage() {
     const [step, setStep] = useState(1);
     const [swap, setSwap] = useState(false);
     const [finalQuestionAnswered, setQuestionAnswered] = useState(false);
+    const [swappingEnabled, setSwappingEnabled] = useState(false);
     
     useEffect(() => {
         if (step === 2) {
@@ -22,6 +23,7 @@ function InstallerHomepage() {
 
     const handleQuestionAnswered = () => {
       setQuestionAnswered(true);
+      setSwappingEnabled(true); /* permanently lol */
     };
 
     function generateRandomString(length) {
@@ -34,9 +36,12 @@ function InstallerHomepage() {
 
   const nextStep = () => {
     if (step === 3) {
-      for (let i = 0; i < 5; i++) {
-        alert(`ERROR: ${generateRandomString(30)}`);
-      }
+      //for (let i = 0; i < 5; i++) {
+      //  alert(`ERROR: ${generateRandomString(30)}`);
+      //}
+	  alert(`ERROR: The installation was not completed!`);
+	  alert(`The installation must now be restarted.`);
+	  alert(`Press OK to restart.`);
     }
 
     if (step < 4) {
@@ -56,7 +61,9 @@ function InstallerHomepage() {
   };
 
   const handleMouseEnter = () => {
-    setSwap(!swap);
+    if (swappingEnabled) {
+        setSwap(!swap);
+    }
   };
 
   return (
