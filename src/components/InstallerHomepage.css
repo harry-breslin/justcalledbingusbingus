@@ -65,12 +65,12 @@ body {
     cursor: pointer;
   }
   
-  .button.primary {
+  .primary.right-button {
     background-color: #2a9d8f;
     color: white;
   }
   
-  .button:not(.primary) {
+  .left-button {
     background-color: #ccc;
   }
   
