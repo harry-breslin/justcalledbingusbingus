@@ -22,10 +22,11 @@ function Fnnuctiondotjs() {
 function App() {
   return (
     <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
+
 
     </div>
   );
 }
 
+import Bongus from './components/Bongus';
 export default App;
