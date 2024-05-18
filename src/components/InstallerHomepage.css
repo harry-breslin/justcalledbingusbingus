@@ -58,6 +58,10 @@ body {
     border-top: 1px solid #ddd;
   }
   
+  .button-container {
+    display: inline-block;
+  }
+  
   .button {
     padding: 10px 20px;
     border: none;
