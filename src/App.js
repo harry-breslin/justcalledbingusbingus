@@ -3,6 +3,7 @@ import MyComponent from './components/MyComponent';
 import InstallerHomepage from './components/InstallerHomepage';
 import './App.css';
 import ReactDomServer from 'react-dom/server';
+import PopupTest from './components/alert';
 
 var counter = 1000;
 function Fnnuctiondotjs() {
@@ -22,6 +23,7 @@ function Fnnuctiondotjs() {
 function App() {
   return (
     <div className="App">
+
       <InstallerHomepage />
     </div>
   );
