@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './InstallerHomepage.css';
+import FooterButtons from './FooterButtons';
 
 function InstallerHomepage() {
   const [step, setStep] = useState(1);
@@ -79,47 +80,7 @@ function InstallerHomepage() {
         </div>
       </main>
       <footer className="footer">
-        {swap ? (
-          <>
-            <div className="button-container" onMouseEnter={handleMouseEnter}>
-              <button
-                className="button left-button"
-                onClick={prevStep}
-                disabled={step === 1}
-              >
-                Back
-              </button>
-            </div>
-            <div className="button-container" onMouseEnter={handleMouseEnter}>
-              <button
-                className="button primary right-button"
-                onClick={nextStep}
-              >
-                {step === 4 ? 'Finish' : 'Next'}
-              </button>
-            </div>
-          </>
-        ) : (
-          <>
-            <div className="button-container" onMouseEnter={handleMouseEnter}>
-              <button
-                className="button primary right-button"
-                onClick={nextStep}
-              >
-                {step === 4 ? 'Finish' : 'Next'}
-              </button>
-            </div>
-            <div className="button-container" onMouseEnter={handleMouseEnter}>
-              <button
-                className="button left-button"
-                onClick={prevStep}
-                disabled={step === 1}
-              >
-                Back
-              </button>
-            </div>
-          </>
-        )}
+        <FooterButtons swap={swap} nextStep={nextStep} prevStep={prevStep} step={step} handleMouseEnter={handleMouseEnter} />
       </footer>
     </div>
   );
