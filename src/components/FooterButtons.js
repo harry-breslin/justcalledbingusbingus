@@ -14,7 +14,7 @@ function FooterButtons({ swap, nextStep, prevStep, step, handleMouseEnter }) {
   const nextButtonContent = (
     <button
       className="button primary right-button"
-      onClick={nextStep}
+      onClick={step === 4 ? () => { alert('alert'); } : nextStep}
       onMouseEnter={handleMouseEnter}
     >
       {step === 4 ? 'Finish' : 'Next'}
