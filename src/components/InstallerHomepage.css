@@ -88,10 +88,33 @@ body {
     color: #888;
     cursor: not-allowed;
   }
-  
-  .license-text {
+
+  .license-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .license-buttons select {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+  }
+
+.license-text {
     width: 100%;
     height: 100px;
+    margin-top: 10px;
+}
+
+.license-buttons {
+    display: flex;
+    justify-content: flex-start;
     margin-top: 10px;
   }
   
