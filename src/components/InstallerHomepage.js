@@ -20,8 +20,8 @@ function InstallerHomepage() {
     } if (step < 4) {
       setStep(step + 1);
     } else {
-      for (let i = 0; i < 10; i++) {
-      alert(`Press the OK button to navigate to the feedback form` + `.`.repeat(i));
+      for (let bingus = 0; bingus < 10; bingus++) {
+      alert(`Press the OK button to navigate to the feedback form` + `.`.repeat(bingus));
       }
       navigate('/feedback-form'); /* navigate to feedback form page */
     }
