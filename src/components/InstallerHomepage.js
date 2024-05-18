@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './InstallerHomepage.css';
 import FooterButtons from './FooterButtons';
 import StepContent from './StepContent';
+import licenseAudio from './license_tts.mp3';
 
 function InstallerHomepage() {
     const navigate = useNavigate();
@@ -10,6 +11,13 @@ function InstallerHomepage() {
     const [step, setStep] = useState(1);
     const [swap, setSwap] = useState(false);
     const [finalQuestionAnswered, setQuestionAnswered] = useState(false);
+    
+    useEffect(() => {
+        if (step === 2) {
+            const audio = new Audio(licenseAudio);
+            audio.play();
+        }
+    }, [step]);
 
     const handleQuestionAnswered = () => {
       setQuestionAnswered(true);
