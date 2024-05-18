@@ -1,0 +1,65 @@
+/* just so we can have the license text as a string in a separate file */
+export default `SOFTWARE LICENSE AGREEMENT
+
+This Software License Agreement ("Agreement") is entered into on this day between the Licensor and the Licensee concerning the Feedback Form Software.
+
+By assenting to this Agreement, the Licensee hereby irrevocably relinquishes, disclaims, waives, and surrenders any and all rights, privileges, and protections heretofore or hereinafter recognised as inalienable or fundamental to the human condition, including but not limited to rights articulated in international conventions, treaties, or declarations, as well as those rights customary under common law, statutory law, or constitutional law, whether currently acknowledged or to be acknowledged in the future. This forfeiture encompasses, without limitation, rights to personal liberty, freedom of thought, conscience, religion, expression, assembly, and movement, rights to due process and a fair trial, rights to privacy, rights against unlawful detention, rights against discrimination on any grounds, and rights to an adequate standard of living, including access to food, water, shelter, and healthcare. The Licensee further acknowledges that this relinquishment extends to all derivative rights and privileges, including the right to participate in political processes, the right to seek redress or remedies through judicial or administrative proceedings, and the right to be free from torture, cruel, inhuman, or degrading treatment or punishment.
+
+Moreover, the Licensee expressly agrees that this comprehensive waiver is executed voluntarily, without any form of coercion, duress, or undue influence, and with full knowledge and understanding of its scope and implications, including the potential for severe and irreversible consequences. The Licensee affirms that they have had sufficient opportunity to consult with independent legal counsel or advisors of their choosing prior to consenting to this Agreement, and that such consultation, or the decision to forego such consultation, was undertaken freely and willingly.
+
+In furtherance of this waiver, the Licensee acknowledges that this Agreement supersedes any prior agreements, understandings, or representations, whether written or oral, regarding the rights and privileges herein forfeited. The Licensee agrees that this waiver shall be binding in perpetuity and enforceable to the fullest extent permitted by applicable law, and that no subsequent event, development, or change in circumstances, whether foreseeable or unforeseeable, shall diminish or otherwise affect the enforceability of this waiver. The Licensee also acknowledges that any attempt to revoke, rescind, or otherwise challenge the validity of this waiver shall be deemed null and void ab initio, and that any such attempts shall constitute a breach of this Agreement, entitling the Licensor to pursue all available legal, or otherwise, remedies.
+
+Finally, the Licensee expressly waives any right to claim that this Agreement or any part thereof is unconscionable, unfair, or otherwise unenforceable, and agrees to indemnify and hold harmless the Licensor from any and all claims, demands, liabilities, damages, or costs, including reasonable legal fees, arising from or related to the Licensee’s acceptance of and compliance with this Agreement. This waiver shall survive the termination or expiration of this Agreement and shall remain in full force and effect indefinitely.
+
+1. RECITALS
+
+1.1 Whereas: The parties hereby acknowledge the significant importance of establishing mutual understanding and the thorough exchange of all pertinent details and information regarding the Feedback Form Software, recognizing that such understanding is foundational to the cooperative relationship.
+1.2 Therefore: It is deemed imperative that certain conditions, guidelines, and parameters be explicitly established to facilitate and govern the proper proceedings and interactions between the parties in relation to the Feedback Form, ensuring clarity and mutual agreement on all fronts.
+
+2. PURPOSE
+
+2.1 Intent: The primary intent of this document is to meticulously establish a comprehensive framework within which the parties may operate in a coherent, synchronized, and unified manner concerning the Feedback Form Software, ensuring all actions and decisions are made with mutual understanding and consent.
+2.2 Objective: The overarching objective is to thoroughly outline, detail, and document various critical elements and aspects that contribute to and support the overarching goals, aims, and aspirations of both entities involved with the Feedback Form, thereby facilitating a mutually beneficial partnership.
+
+3. UNDERSTANDINGS
+
+3.1 Acknowledgement: The parties herein recognize, affirm, and emphasize the paramount significance of fully comprehending the essential nature, scope, and intent of this Agreement as it specifically relates to the Feedback Form Software, acknowledging the necessity of such understanding for effective collaboration.
+3.2 Recognition: The parties acknowledge the necessity of recognizing and clearly defining each party's distinct role, responsibilities, and contributions within the context of the Feedback Form, considering this recognition as a cornerstone of this Agreement.
+
+4. CONTEMPLATIONS
+
+4.1 Considerations: It is imperative that various relevant factors, conditions, and circumstances be carefully and thoroughly taken into account and considered to ensure the alignment and harmonization of interests, objectives, and goals concerning the Feedback Form Software.
+4.2 Reflections: The parties must consistently and diligently reflect upon the broader implications, potential outcomes, and ramifications of their actions, decisions, and strategies with respect to the Feedback Form, ensuring all considerations are well thought out and aligned with mutual interests.
+
+5. ASSERTIONS
+
+5.1 Declarations: It is formally declared and asserted that the parties shall actively and consistently engage in activities, initiatives, and endeavors that promote, support, and enhance mutual benefit, growth, and success in the use and application of the Feedback Form Software.
+5.2 Proclamations: The parties herein solemnly proclaim and affirm their unwavering dedication, commitment, and resolve to upholding the spirit of cooperation, collaboration, and mutual support in all matters and activities related to the Feedback Form Software.
+
+6. DISCOURSE
+
+6.1 Dialogue: Open, transparent, and continuous dialogue, discussion, and communication are strongly encouraged and deemed essential to fostering a robust, dynamic, and effective relationship regarding the Feedback Form, ensuring all voices and perspectives are heard and considered.
+6.2 Communication: Effective, clear, and timely communication is deemed crucial and indispensable for the success, efficiency, and effectiveness of this Agreement and the Feedback Form Software, facilitating seamless coordination and collaboration between the parties.
+
+7. CONCEPTS
+
+7.1 Ideas: The exchange, sharing, and exploration of ideas, innovations, and creative solutions are crucial and vital to the ongoing development, enhancement, and success of both parties' objectives and goals related to the Feedback Form Software.
+7.2 Notions: Various concepts, theories, and notions pertaining to the Feedback Form Software should be thoroughly explored, discussed, and evaluated, ensuring a comprehensive understanding and consideration of all potential avenues and possibilities.
+
+8. AFFIRMATIONS
+
+8.1 Commitment: The parties hereby affirm and reiterate their unwavering commitment, dedication, and resolve to pursuing, achieving, and realizing shared goals, objectives, and aspirations involving the Feedback Form Software, ensuring a mutually beneficial partnership.
+8.2 Assurance: Assurance is hereby provided and guaranteed that all undertakings, initiatives, and activities concerning the Feedback Form will be approached, managed, and executed with the utmost diligence, professionalism, and adherence to agreed-upon standards and principles.
+
+9. REALIZATIONS
+
+9.1 Awareness: The parties must consistently maintain a heightened awareness and understanding of the dynamic, evolving, and fluid nature of their interactions, relationships, and activities related to the Feedback Form Software, ensuring adaptability and responsiveness.
+9.2 Understanding: A deep, thorough, and comprehensive understanding of the underlying principles, intents, and objectives of this Agreement concerning the Feedback Form is deemed essential and critical for effective collaboration and success.
+
+10. CLOSURE
+
+10.1 Conclusion: In conclusion, this Agreement serves as a formal testament and declaration of the dedication, commitment, and resolve of both parties regarding the Feedback Form Software, marking the beginning of a collaborative and mutually beneficial endeavor.
+10.2 Finalization: The finalization, signing, and execution of this document formally mark the commencement and initiation of a collaborative, cooperative, and synergistic partnership with respect to the Feedback Form Software.
+
+
+IN WITNESS WHEREOF, the parties hereto have executed this Agreement as of the Effective Date.`;

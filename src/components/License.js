@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import licenseText from './LicenseTextString.js';
 
 function License({ onQuestionAnswered }) {
   const [accepted, setAccepted] = useState(false);
@@ -17,9 +18,7 @@ function License({ onQuestionAnswered }) {
 
   return (
     <div>
-      <textarea className="license-text" readOnly>
-        [Insert License Agreement Here]
-      </textarea>
+      <textarea className="license-text" readOnly value={licenseText} />
       <div className="license-buttons">
         <button className="button primary license-button" onClick={() => setAccepted(true)}>Accept License</button>
         {accepted && <button className="button primary license-button" onClick={() => setConfirmed(true)}>Are you sure?</button>}
