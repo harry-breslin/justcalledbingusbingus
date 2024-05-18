@@ -14,6 +14,7 @@ function InstallerHomepage() {
     
     useEffect(() => {
         if (step === 2) {
+            setQuestionAnswered(false);
             const audio = new Audio(licenseAudio);
             audio.play();
         }
