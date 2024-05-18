@@ -1,15 +1,17 @@
-// src/components/Summary.js
 import React from 'react';
 import './Summary.css';
 
 const Summary = ({ answers }) => {
+  // Convert the object into an array of question-answer pairs
+  const answerPairs = Object.entries(answers);
+
   return (
     <div className="summary-container">
-      <h2>Summary of your answers</h2>
+      <h2>Feedback Summary</h2>
       <ul>
-        {Object.keys(answers).map((questionId) => (
+        {answerPairs.map(([questionId, { question, answer }]) => (
           <li key={questionId}>
-            Question {questionId}: {answers[questionId]}
+            <strong>{question}</strong>: {answer}
           </li>
         ))}
       </ul>
