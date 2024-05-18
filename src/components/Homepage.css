@@ -10,10 +10,16 @@
   width: 100vw;
 }
 
-.banner {
+.homepage-container .banner {
   background: rgba(0, 0, 0, 0.7);
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   text-align: center;
+  background: url('https://www.transparenttextures.com/patterns/connected.png'), rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .homepage-container .header h1 {
@@ -25,7 +31,7 @@
   font-size: 1.25rem;
 }
 
-.homepage {
+.homepage-container .homepage {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -36,24 +42,32 @@
 .homepage-container .button-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   gap: 1rem;
 }
 
-.download-button {
+.homepage-container .download-button {
   background-color: #ffcc00;
   color: #000;
   border: none;
   padding: 1rem 2rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s;
-  width: 200px;
+  /* width: 400px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-.download-button:hover {
-  background-color: #e6b800;
+.homepage-container .download-button:hover {
+  background-color: #cfa600;
+}
+
+.homepage-container .download-button .download-size {
+  
 }
 
 .homepage-container .footer {

@@ -19,9 +19,15 @@ const Homepage = () => {
       </div>
       <div className="homepage">
         <div className="button-container">
-          <button className="download-button" onClick={goToInstaller}>Download for Windows</button>
-          <button className="download-button" onClick={goToInstaller}>Download for MacOS</button>
-          <button className="download-button" onClick={goToInstaller}>Download for Linux</button>
+            <button className="download-button" onClick={goToInstaller}>
+                🖥️ Download for Windows <span className='download-size'>50 MB</span>
+            </button>
+            <button className="download-button" onClick={goToInstaller}>
+                🍏 Download for MacOS <span className='download-size'>48 MB</span>
+            </button>
+            <button className="download-button" onClick={goToInstaller}>
+                🐧 Download for Linux <span className='download-size'>45 MB</span>
+            </button>
         </div>
       </div>
       <footer className="footer">
