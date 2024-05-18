@@ -16,12 +16,12 @@
   text-align: center;
 }
 
-.header h1 {
+.homepage-container .header h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
-.header p {
+.homepage-container .header p {
   font-size: 1.25rem;
 }
 
@@ -33,7 +33,7 @@
   align-items: center;
 }
 
-.button-container {
+.homepage-container .button-container {
   display: flex;
   flex-direction: column;
   align-items: center;

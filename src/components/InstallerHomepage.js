@@ -67,7 +67,7 @@ function InstallerHomepage() {
   };
 
   return (
-    <div className="container">
+    <div className="container installer-homepage">
       <header className="header">
         <h1>Welcome to the Installation Wizard</h1>
       </header>

@@ -9,7 +9,7 @@ body {
     height: 100vh;
   }
   
-  .container {
+.installer-homepage.container {
     background: white;
     width: 600px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -17,40 +17,40 @@ body {
     overflow: hidden;
   }
   
-  .header {
+.installer-homepage   .header {
     background-color: #2a9d8f;
     color: white;
     padding: 20px;
     text-align: center;
   }
   
-  .main-content {
+ .installer-homepage  .main-content {
     padding: 20px;
   }
   
-  .step-indicator {
+.installer-homepage   .step-indicator {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
   }
   
-  .step {
+.installer-homepage   .step {
     flex: 1;
     text-align: center;
     padding: 10px;
     border-bottom: 2px solid #ccc;
   }
   
-  .step.active {
+.installer-homepage   .step.active {
     border-color: #2a9d8f;
     font-weight: bold;
   }
   
-  .content {
+.installer-homepage   .content {
     text-align: center;
   }
   
-  .footer {
+.installer-homepage   .footer {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
@@ -58,38 +58,38 @@ body {
     border-top: 1px solid #ddd;
   }
   
-  .button-container {
+.installer-homepage   .button-container {
     display: inline-block;
   }
   
-  .button {
+.installer-homepage   .button {
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
-  .primary.right-button {
+ .installer-homepage  .primary.right-button {
     background-color: #2a9d8f;
     color: white;
   }
   
-  .left-button {
+.installer-homepage   .left-button {
     background-color: #ccc;
   }
   
-  .button:disabled { /* not used anymore we use the class so it still swaps */
+ .installer-homepage  .button:disabled { /* not used anymore we use the class so it still swaps */
     background-color: #e0e0e0;
     cursor: not-allowed;
   }
 
-  .button.disabled {
+ .installer-homepage  .button.disabled {
     background-color: #e0e0e0;
     color: #888;
     cursor: not-allowed;
   }
 
-  .license-buttons {
+ .installer-homepage  .license-buttons {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -97,7 +97,7 @@ body {
     gap: 10px;
   }
 
-  .license-buttons select {
+.installer-homepage   .license-buttons select {
     padding: 10px 20px;
     background-color: #f0f0f0;
     border: none;
@@ -106,19 +106,19 @@ body {
     font-family: Arial, sans-serif;
   }
 
-.license-text {
+.installer-homepage .license-text {
     width: 100%;
     height: 300px;
     margin-top: 10px;
 }
 
-.license-buttons {
+.installer-homepage .license-buttons {
     display: flex;
     justify-content: flex-start;
     margin-top: 10px;
   }
   
-  .progress-bar {
+ .installer-homepage  .progress-bar {
     width: 100%;
     background-color: #e0e0e0;
     border-radius: 4px;
@@ -126,7 +126,7 @@ body {
     margin-top: 10px;
   }
   
-  .progress {
+ .installer-homepage  .progress {
     height: 10px;
     background-color: #2a9d8f;
     width: 0;
