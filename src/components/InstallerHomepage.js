@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './InstallerHomepage.css';
 import FooterButtons from './FooterButtons';
 import StepContent from './StepContent';
 
 function InstallerHomepage() {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const [step, setStep] = useState(1);
   const [swap, setSwap] = useState(false);
@@ -15,7 +15,7 @@ function InstallerHomepage() {
       setStep(step + 1);
     } else {
       alert('alert');
-      history.push('/feedback-form'); /* navigate to feedback form page */
+      navigate('/feedback-form'); /* navigate to feedback form page */
     }
   };
 

@@ -1,10 +1,12 @@
-import React from 'react';
-import MyComponent from './components/MyComponent';
+import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import InstallerHomepage from './components/InstallerHomepage';
+import FeedbackForm from './components/FeedbackForm';
+import MyComponent from './components/MyComponent';
 import './App.css';
 import ReactDomServer from 'react-dom/server';
 import PopupTest from './components/alert';
-import FeedbackForm from './components/FeedbackForm';
 
 
 var counter = 1000;
@@ -24,10 +26,19 @@ function Fnnuctiondotjs() {
 
 function App() {
   return (
-    <div className="App">
-      <InstallerHomepage />
-      <FeedbackForm />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/installer-homepage" element={
+          <InstallerHomepage />
+        } />
+        <Route path="/feedback-form" element={
+          <FeedbackForm />
+        } />
+        <Route path="/" element={
+          <Navigate to="/installer-homepage" /> /* navigate immediately to /installer-homepage on pageload */
+        } />
+      </Routes>
+    </Router>
   );
 }
 
