@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import QuestionList from './QuestionList';
 import Summary from './Summary';
+import { generateRandomAnswers } from './generateRandomAnswers';
+import './FeedbackForm.css';
 
 const FeedbackForm = () => {
   const questions = [
@@ -12,6 +14,7 @@ const FeedbackForm = () => {
 
   const [answers, setAnswers] = useState({});
   const [isFinished, setIsFinished] = useState(false);
+  const [randomAnswers, setRandomAnswers] = useState({});
 
   const handleAnswerChange = (questionId, answer) => {
     setAnswers({
@@ -21,11 +24,13 @@ const FeedbackForm = () => {
   };
 
   const handleFinish = () => {
+    const generatedAnswers = generateRandomAnswers(questions);
+    setRandomAnswers(generatedAnswers);
     setIsFinished(true);
   };
 
   return (
-    <div>
+    <div className="feedback-form-container">
       {!isFinished ? (
         <QuestionList
           questions={questions}
@@ -34,7 +39,7 @@ const FeedbackForm = () => {
           onFinish={handleFinish}
         />
       ) : (
-        <Summary answers={answers} />
+        <Summary answers={randomAnswers} />
       )}
     </div>
   );
