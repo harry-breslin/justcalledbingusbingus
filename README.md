@@ -1,5 +1,5 @@
 # justcalledbingusbingus
-That's what we call the repo for our [Scuffathon](https://github.com/HackMelbourne/Scuffathon) project. \
+That's what we called the repo for our [Scuffathon](https://github.com/HackMelbourne/Scuffathon) project. \
 The goal was to make a scuffed feedback form for [HackMelbourne](https://hack.melbourne/). \
 The website is hosted [here](https://justcalledbingusbingus.vercel.app/).
 
