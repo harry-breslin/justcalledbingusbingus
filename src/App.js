@@ -23,7 +23,9 @@ function Fnnuctiondotjs() {
 function App() {
   return (
     <div className="App">
-
+      <header className="bingus-class">
+        <h1 aria-setsize={2}>binguss bungsu bingus bnigus bnigus bingus</h1>
+      </header>
       <InstallerHomepage />
     </div>
   );
