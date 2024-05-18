@@ -11,7 +11,7 @@ const Summary = ({ answers }) => {
       <ul>
         {answerPairs.map(([questionId, { question, answer }]) => (
           <li key={questionId}>
-            <strong>{question}</strong>: {answer}
+            <strong>{question}</strong><br></br>{answer}
           </li>
         ))}
       </ul>
