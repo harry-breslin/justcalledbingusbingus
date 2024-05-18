@@ -13,7 +13,7 @@ const ProgressBar = () => {
         }
         return prevProgress + 1;
       });
-    }, 100);
+    }, 200);
     return () => clearInterval(interval);
   }, []);
 
