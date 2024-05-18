@@ -58,7 +58,7 @@ const FeedbackForm = () => {
         { id: 108, text: 'If HackMelbourne had a signature dance move, what would it be called?' },
         { id: 109, text: 'What’s your go-to comfort food during an intense coding session?' },
         { id: 110, text: 'If you could create a new emoji, what would it look like and what would it represent?' },
-        { id: 111, text: 'What"s your favourite coding-related pun or joke?' },
+        { id: 111, text: 'What’s your favourite coding-related pun or joke?' },
         { id: 112, text: 'If you had to design a new logo for HackMelbourne, what elements would you include?' },
         { id: 113, text: 'What’s the quirkiest habit you’ve developed while coding?' },
         { id: 114, text: 'If HackMelbourne had its own reality TV show, what would it be called?' },
@@ -245,91 +245,91 @@ const FeedbackForm = () => {
           answer = "If I had to write code using only one hand, I'd rely on keyboard shortcuts and voice commands.";
           break;  
           case 107:
-            answer = "If HackMelbourne were a superhero, it would be Iron Man - innovative and resourceful.";
+            answer = "I'd love to bring a hackathon to the Marvel Cinematic Universe - imagine coding alongside Tony Stark!";
             break;
           case 108:
-            answer = "If I could teleport, I'd visit HackMelbourne headquarters to meet fellow members in person.";
+            answer = "HackMelbourne's signature dance move would be called the HackHop - a blend of coding and grooving.";
             break;
           case 109:
-            answer = "If HackMelbourne were a food, it would be pizza - universally loved and customizable.";
+            answer = "My go-to comfort food during an intense coding session is a classic bowl of macaroni and cheese.";
             break;
           case 110:
-            answer = "If I could time travel, I'd go back to attend the inaugural HackMelbourne event.";
+            answer = "I'd create an emoji of a coding wizard, representing the magic of programming.";
             break;
           case 111:
-            answer = "If HackMelbourne were a song, it would be 'Eye of the Tiger' - motivating and inspiring.";
+            answer = "My favorite coding-related pun is 'Why was the JavaScript developer sad? Because he didn't know how to 'null' his feelings.'";
             break;
           case 112:
-            answer = "If I could have any superpower, I'd choose the ability to code flawlessly in any language.";
+            answer = "I'd include elements like gears and binary code to represent innovation and technology in HackMelbourne's logo.";
             break;
           case 113:
-            answer = "If HackMelbourne were a fictional world, it would be the Hogwarts School of Witchcraft and Wizardry - fostering learning and creativity.";
+            answer = "The quirkiest habit I've developed while coding is talking to myself as if I'm explaining the code to someone else.";
             break;
           case 114:
-            answer = "If HackMelbourne were a book, it would be 'The Hitchhiker's Guide to the Galaxy' - full of adventure and humor.";
+            answer = "HackMelbourne's reality TV show would be called 'Code Quest' - following members on their coding adventures.";
             break;
           case 115:
-            answer = "If I could have dinner with anyone, living or dead, I'd choose Ada Lovelace - to discuss her pioneering work in computer programming.";
+            answer = "My favorite way to procrastinate when I should be coding is watching coding tutorial videos on YouTube.";
             break;
           case 116:
-            answer = "If HackMelbourne were a color, it would be vibrant blue - representing creativity and innovation.";
+            answer = "I'd invent a holographic coding assistant that projects code snippets in the air for easier visualization.";
             break;
           case 117:
-            answer = "If I could have any technology from a movie, I'd choose Tony Stark's Iron Man suit - for its versatility and power.";
+            answer = "I'd instantly master Python for its versatility and readability.";
             break;
           case 118:
-            answer = "If HackMelbourne were a weather phenomenon, it would be a rainbow - bringing joy and positivity.";
+            answer = "The coolest hackathon project I've ever seen was a virtual reality game that helps people overcome phobias.";
             break;
           case 119:
-            answer = "If I could have any fictional item, I'd choose Hermione Granger's Time-Turner - for the extra time to code.";
+            answer = "I'd create an app to automatically generate playlists based on the user's current mood and activities.";
             break;
           case 120:
-            answer = "If HackMelbourne were a video game, it would be Minecraft - promoting creativity and collaboration.";
+            answer = "My favorite 'nerdy' movie to watch is 'The Matrix' - it always inspires me to think outside the box.";
             break;
           case 121:
-            answer = "If I could have any skill instantly, I'd choose the ability to code in every programming language.";
+            answer = "If I could only use one IDE for the rest of my life, it would be Visual Studio Code - it's lightweight and highly customizable.";
             break;
           case 122:
-            answer = "If HackMelbourne were a movie character, it would be Gandalf - wise, supportive, and always ready for an adventure.";
+            answer = "I'd put in a Raspberry Pi, a 3D printer, and a VR headset to represent the current tech scene in HackMelbourne's time capsule.";
             break;
           case 123:
-            answer = "If I could live in any fictional universe, I'd choose the Star Trek universe - exploring new frontiers and technologies.";
+            answer = "My favorite coding-related quote is 'The only way to do great work is to love what you do.' - Steve Jobs";
             break;
           case 124:
-            answer = "If HackMelbourne were a vehicle, it would be a spaceship - symbolizing innovation and exploration.";
+            answer = "My coding style in three words: structured, efficient, and innovative.";
             break;
           case 125:
-            answer = "If I could have any pet, I'd choose a robotic cat - low maintenance and tech-savvy.";
+            answer = "The most creative hackathon project idea I've had involved using augmented reality to teach coding concepts to children.";
             break;
           case 126:
-            answer = "If HackMelbourne were a beverage, it would be a double shot of espresso - fueling creativity and productivity.";
+            answer = "I'd love to host a hackathon on a remote tropical island - coding by the beach sounds like paradise!";
             break;
           case 127:
-            answer = "If I could have any mythical creature as a pet, I'd choose a phoenix - for its resilience and ability to rise from the ashes.";
+            answer = "The strangest thing I've coded was a program that generates random haikus based on weather patterns.";
             break;
           case 128:
-            answer = "If HackMelbourne were a game console, it would be a Nintendo Switch - versatile and inclusive.";
+            answer = "I'd choose Alan Turing as a mentor, and we'd work on advancing artificial intelligence together.";
             break;
           case 129:
-            answer = "If I could have any historical figure as a mentor, I'd choose Leonardo da Vinci - for his multidisciplinary approach to innovation.";
+            answer = "My favorite non-tech hobby is playing the guitar - it's a great way to unwind after a coding session.";
             break;
           case 130:
-            answer = "If HackMelbourne were a constellation, it would be the Big Dipper - guiding members towards success and innovation.";
+            answer = "HackMelbourne's theme song would be 'We Will Rock You' by Queen - representing the club's energy and enthusiasm.";
             break;
           case 131:
-            answer = "If I could have any futuristic gadget, I'd choose a holographic projector - for immersive presentations and workshops.";
+            answer = "The most unusual inspiration I've had for a project came from a dream about flying robots.";
             break;
           case 132:
-            answer = "If HackMelbourne were a landmark, it would be the Golden Gate Bridge - connecting members and fostering collaboration.";
+            answer = "If HackMelbourne were a superhero, it would have the superpower of infinite creativity.";
             break;
           case 133:
-            answer = "If I could have any magical ability, I'd choose telekinesis - for effortless multitasking while coding.";
+            answer = "HackMelbourne would be a gentle breeze - refreshing and invigorating, yet calming.";
             break;
           case 134:
-            answer = "If HackMelbourne were a mode of transportation, it would be a teleportation device - making it easy for members to attend events from anywhere.";
+            answer = "If HackMelbourne were a flavor of ice cream, it would be a mix of innovation swirl and collaboration crunch.";
             break;
           case 135:
-            answer = "If I could have any item from a fictional universe, I'd choose Hermione Granger's beaded bag - for its endless storage space.";
+            answer = "If HackMelbourne were a fictional character, it would be Sherlock Holmes - analytical, curious, and always solving problems.";
             break;
 
 
