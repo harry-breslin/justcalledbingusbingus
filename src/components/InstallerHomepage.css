@@ -78,8 +78,14 @@ body {
     background-color: #ccc;
   }
   
-  .button:disabled {
+  .button:disabled { /* not used anymore we use the class so it still swaps */
     background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+
+  .button.disabled {
+    background-color: #e0e0e0;
+    color: #888;
     cursor: not-allowed;
   }
   

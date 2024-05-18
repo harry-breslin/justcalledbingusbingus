@@ -3,14 +3,13 @@ import React from 'react';
 function FooterButtons({ swap, nextStep, prevStep, step, handleMouseEnter }) {
   const backButtonContent = (
     <button
-      className="button left-button"
-      onClick={prevStep}
-      disabled={step === 1}
-      onMouseEnter={handleMouseEnter}
+        className={`button left-button ${step === 1 ? 'disabled' : ''}`}
+        onClick={prevStep}
+        onMouseEnter={handleMouseEnter}
     >
-      Back
+        Back
     </button>
-  );
+    );
 
   const nextButtonContent = (
     <button
