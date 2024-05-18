@@ -36,9 +36,12 @@ function InstallerHomepage() {
 
   const nextStep = () => {
     if (step === 3) {
-      for (let i = 0; i < 5; i++) {
-        alert(`ERROR: ${generateRandomString(30)}`);
-      }
+      //for (let i = 0; i < 5; i++) {
+      //  alert(`ERROR: ${generateRandomString(30)}`);
+      //}
+	  alert(`ERROR: The installation was not completed!`);
+	  alert(`The installation must now be restarted.`);
+	  alert(`Press OK to restart.`);
     }
 
     if (step < 4) {
