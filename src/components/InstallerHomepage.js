@@ -11,10 +11,11 @@ function InstallerHomepage() {
   const [swap, setSwap] = useState(false);
 
   const nextStep = () => {
+    const randomString = Math.random().toString(36).substring(2, 10);
+    alert(`Random string: ${randomString}`);
     if (step < 4) {
       setStep(step + 1);
     } else {
-      alert('alert');
       navigate('/feedback-form'); /* navigate to feedback form page */
     }
   };
