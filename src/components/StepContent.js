@@ -1,4 +1,5 @@
 import React from 'react';
+import License from './License';
 
 function StepContent({ step }) {
   switch (step) {
@@ -14,9 +15,7 @@ function StepContent({ step }) {
         <>
           <h2>Step 2: License Agreement</h2>
           <p>Please read and accept the license agreement to proceed.</p>
-          <textarea className="license-text" readOnly>
-            [Insert License Agreement Here]
-          </textarea>
+          <License />
         </>
       );
     case 3:
