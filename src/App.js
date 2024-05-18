@@ -1,6 +1,6 @@
 import React from 'react';
 import MyComponent from './components/MyComponent';
-import logo from './logo.svg';
+import InstallerHomepage from './components/InstallerHomepage';
 import './App.css';
 import ReactDomServer from 'react-dom/server';
 
@@ -22,11 +22,9 @@ function Fnnuctiondotjs() {
 function App() {
   return (
     <div className="App">
-
-
+      <InstallerHomepage />
     </div>
   );
 }
 
-import Bongus from './components/Bongus';
 export default App;
