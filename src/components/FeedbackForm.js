@@ -285,259 +285,259 @@ const FeedbackForm = () => {
             answer = "Overall, I'm extremely satisfied with my experience with HackMelbourne.";
             break;
         case 101:
-          answer = "If HackMelbourne were an animal, it would be a koala - friendly and adaptable.";
+          answer = "If HackMelbourne were an animal, it would be a bingus - friendly and adaptable.";
           break;
         case 102:
-          answer = "If I could have any celebrity join HackMelbourne for a day, it would be Elon Musk - for his innovative ideas.";
+          answer = "If I could have any celebrity join HackMelbourne for a day, it would be Bingus - for his innovative ideas.";
           break;
         case 103:
-          answer = "The funniest team name I've encountered at a hackathon is '404: Team Name Not Found'.";
+          answer = "The funniest team name I've encountered at a hackathon is 'bingus bingus'.";
           break;
         case 104:
-          answer = "If HackMelbourne were a movie, it would be a sci-fi adventure - full of creativity and exploration.";
+          answer = "If HackMelbourne were a movie, it would be a bingus adventure - full of creativity and exploration.";
           break;
         case 105:
-          answer = "My favorite meme to use when coding gets tough is the 'This is Fine' dog.";
+          answer = "My favorite meme to use when coding gets tough is the bingus cat.";
           break;
         case 106:
-          answer = "If I had to write code using only one hand, I'd rely on keyboard shortcuts and voice commands.";
+          answer = "If I had to write code using only one hand, I'd rely on bingus.";
           break;  
           case 107:
-            answer = "I'd love to bring a hackathon to the Marvel Cinematic Universe - imagine coding alongside Tony Stark!";
+            answer = "I'd love to bring a hackathon to the Bingus Universe - imagine coding alongside bingus!";
             break;
           case 108:
-            answer = "HackMelbourne's signature dance move would be called the HackHop - a blend of coding and grooving.";
+            answer = "HackMelbourne's signature dance move would be called the Bingus - a blend of coding and grooving.";
             break;
           case 109:
-            answer = "My go-to comfort food during an intense coding session is a classic bowl of macaroni and cheese.";
+            answer = "My go-to comfort food during an intense coding session is a classic bowl of bingus and cheese.";
             break;
           case 110:
-            answer = "I'd create an emoji of a coding wizard, representing the magic of programming.";
+            answer = "I'd create an emoji of a bingus, representing the magic of programming.";
             break;
           case 111:
-            answer = "My favorite coding-related pun is 'Why was the JavaScript developer sad? Because he didn't know how to 'null' his feelings.'";
+            answer = "My favorite coding-related pun is 'Why was the JavaScript developer sad? Because he didn't know how to 'bingus' his feelings.'";
             break;
           case 112:
-            answer = "I'd include elements like gears and binary code to represent innovation and technology in HackMelbourne's logo.";
+            answer = "I'd include elements like bingus and bingus code to represent innovation and technology in HackMelbourne's logo.";
             break;
           case 113:
-            answer = "The quirkiest habit I've developed while coding is talking to myself as if I'm explaining the code to someone else.";
+            answer = "The quirkiest habit I've developed while coding is talking to bingus as if I'm explaining the code to bingus.";
             break;
           case 114:
-            answer = "HackMelbourne's reality TV show would be called 'Code Quest' - following members on their coding adventures.";
+            answer = "HackMelbourne's reality TV show would be called 'Bingus' - following members on their coding adventures.";
             break;
           case 115:
-            answer = "My favorite way to procrastinate when I should be coding is watching coding tutorial videos on YouTube.";
+            answer = "My favorite way to procrastinate when I should be coding is watching bingus videos on YouTube.";
             break;
           case 116:
-            answer = "I'd invent a holographic coding assistant that projects code snippets in the air for easier visualization.";
+            answer = "I'd invent a holographic coding assistant that projects bingus in the air for easier visualization.";
             break;
           case 117:
-            answer = "I'd instantly master Python for its versatility and readability.";
+            answer = "I'd instantly master c2b for its versatility and readability.";
             break;
           case 118:
-            answer = "The coolest hackathon project I've ever seen was a virtual reality game that helps people overcome phobias.";
+            answer = "The coolest hackathon project I've ever seen was a bingus bingus bot by bingus.";
             break;
           case 119:
-            answer = "I'd create an app to automatically generate playlists based on the user's current mood and activities.";
+            answer = "I'd create an app to automatically generate bingus based on the user's current mood and activities.";
             break;
           case 120:
-            answer = "My favorite 'nerdy' movie to watch is 'The Matrix' - it always inspires me to think outside the box.";
+            answer = "My favorite 'nerdy' movie to watch is 'Bingus' - it always inspires me to think outside the box.";
             break;
           case 121:
-            answer = "If I could only use one IDE for the rest of my life, it would be Visual Studio Code - it's lightweight and highly customizable.";
+            answer = "If I could only use one IDE for the rest of my life, it would be Bingus Code - it's lightweight and highly customizable.";
             break;
           case 122:
-            answer = "I'd put in a Raspberry Pi, a 3D printer, and a VR headset to represent the current tech scene in HackMelbourne's time capsule.";
+            answer = "I'd put in a Bingus, a 3D printer, and a VR headset to represent the current tech scene in HackMelbourne's time capsule.";
             break;
           case 123:
-            answer = "My favorite coding-related quote is 'The only way to do great work is to love what you do.' - Steve Jobs";
+            answer = "My favorite coding-related quote is 'The only way to do great work is to love what you do.' - Bingus";
             break;
           case 124:
-            answer = "My coding style in three words: structured, efficient, and innovative.";
+            answer = "My coding style in three words: bingus, bingus, and bingus.";
             break;
           case 125:
-            answer = "The most creative hackathon project idea I've had involved using augmented reality to teach coding concepts to children.";
+            answer = "The most creative hackathon project idea I've had involved using augmented reality to teach coding concepts to bingus.";
             break;
           case 126:
-            answer = "I'd love to host a hackathon on a remote tropical island - coding by the beach sounds like paradise!";
+            answer = "I'd love to host a hackathon on a remote tropical island - coding by the bingus sounds like paradise!";
             break;
           case 127:
-            answer = "The strangest thing I've coded was a program that generates random haikus based on weather patterns.";
+            answer = "The strangest thing I've coded was a program that generates random haikus based on bingus.";
             break;
           case 128:
-            answer = "I'd choose Alan Turing as a mentor, and we'd work on advancing artificial intelligence together.";
+            answer = "I'd choose Bingus as a mentor, and we'd work on advancing artificial intelligence together.";
             break;
           case 129:
-            answer = "My favorite non-tech hobby is playing the guitar - it's a great way to unwind after a coding session.";
+            answer = "My favorite non-tech hobby is playing with bingus - it's a great way to unwind after a coding session.";
             break;
           case 130:
-            answer = "HackMelbourne's theme song would be 'We Will Rock You' by Queen - representing the club's energy and enthusiasm.";
+            answer = "HackMelbourne's theme song would be 'Bingus' by bingus - representing the club's energy and enthusiasm.";
             break;
           case 131:
-            answer = "The most unusual inspiration I've had for a project came from a dream about flying robots.";
+            answer = "The most unusual inspiration I've had for a project came from a dream about flying bingus.";
             break;
           case 132:
-            answer = "If HackMelbourne were a superhero, it would have the superpower of infinite creativity.";
+            answer = "If HackMelbourne were a superhero, it would have the superpower of infinite bingus.";
             break;
           case 133:
-            answer = "HackMelbourne would be a gentle breeze - refreshing and invigorating, yet calming.";
+            answer = "HackMelbourne would be a gentle breeze - refreshing and invigorating, yet calming. Much like bingus.";
             break;
           case 134:
-            answer = "If HackMelbourne were a flavor of ice cream, it would be a mix of innovation swirl and collaboration crunch.";
+            answer = "If HackMelbourne were a flavor of ice cream, it would be a mix of innovation swirl and collaboration crunch. Bingus's favourite flavour.";
             break;
           case 135:
-            answer = "If HackMelbourne were a fictional character, it would be Sherlock Holmes - analytical, curious, and always solving problems.";
+            answer = "If HackMelbourne were a fictional character, it would be Bingus - analytical, curious, and always solving problems.";
             break;
             case 136:
-              answer = "I would choose the ability to teleport, so I could travel anywhere instantly.";
+              answer = "I would choose the ability to teleport, so I could travel anywhere instantly. Specifically, to bingus.";
               break;
             case 137:
-              answer = "The most unusual thing I've ever eaten is fried insects.";
+              answer = "The most unusual thing I've ever eaten is fried bingus.";
               break;
             case 138:
-              answer = "I would visit Japan because of its rich culture and beautiful scenery.";
+              answer = "I would visit Bingus because of its rich culture and beautiful scenery.";
               break;
             case 139:
-              answer = "My favourite season is spring because of the blooming flowers and pleasant weather.";
+              answer = "My favourite season is spring because of the blooming flowers and pleasant bingus.";
               break;
             case 140:
-              answer = "I would go to the future to see the advancements in technology.";
+              answer = "I would go to the future to see the advancements in bingus.";
               break;
             case 141:
-              answer = "My favourite board game is Settlers of Catan.";
+              answer = "My favourite board game is Bingus.";
               break;
             case 142:
-              answer = "I would be a strawberry because they are sweet and loved by many.";
+              answer = "I would be a strawberry because they are sweet and loved by bingus.";
               break;
             case 143:
-              answer = "The last book I read and loved was 'To Kill a Mockingbird'.";
+              answer = "The last book I read and loved was 'Life of Bingus'.";
               break;
             case 144:
-              answer = "My favourite hobby outside of work is painting.";
+              answer = "My favourite hobby outside of work is bingus.";
               break;
             case 145:
-              answer = "I would have dinner with Albert Einstein to discuss his theories and ideas.";
+              answer = "I would have dinner with Bingus to discuss his theories and ideas.";
               break;
             case 146:
-              answer = "The weirdest dream I've ever had involved flying purple elephants.";
+              answer = "The weirdest dream I've ever had involved flying purple bingus.";
               break;
             case 147:
-              answer = "I would be the colour blue because it is calming and serene.";
+              answer = "I would be the colour pink because it is calming and serene, like bingus.";
               break;
             case 148:
-              answer = "My favourite way to spend a rainy day is reading a book by the window.";
+              answer = "My favourite way to spend a rainy day is reading a book by bingus.";
               break;
             case 149:
-              answer = "I would instantly learn to play the piano.";
+              answer = "I would instantly learn to play the piano like bingus.";
               break;
             case 150:
-              answer = "My favourite ice cream flavour is mint chocolate chip.";
+              answer = "My favourite ice cream flavour is mint chocolate bingus.";
               break;
             case 151:
-              answer = "I would be a cat because they are independent and graceful.";
+              answer = "I would be a cat because they are independent and graceful, like bingus.";
               break;
             case 152:
-              answer = "The most interesting place I've ever visited is Machu Picchu.";
+              answer = "The most interesting place I've ever visited is Bingus.";
               break;
             case 153:
-              answer = "I would be Harry Potter for a day to experience the magical world.";
+              answer = "I would be Bingus for a day to experience the magical world.";
               break;
             case 154:
-              answer = "My favourite type of music to listen to while relaxing is classical.";
+              answer = "My favourite type of music to listen to while relaxing is bingus.";
               break;
             case 155:
-              answer = "I would choose to live in the Renaissance period to witness the great art and inventions.";
+              answer = "I would choose to live in the Bingus period to witness the great art and inventions.";
               break;
             case 156:
-              answer = "My go-to comfort food is mac and cheese.";
+              answer = "My go-to comfort food is bingus and cheese.";
               break;
             case 157:
-              answer = "I would swap lives with a famous author to experience their creative process.";
+              answer = "I would swap lives with a famous bingus to experience their creative process.";
               break;
             case 158:
-              answer = "My favourite movie of all time is 'The Shawshank Redemption'.";
+              answer = "My favourite movie of all time is 'The Bingus Redemption'.";
               break;
             case 159:
-              answer = "I would choose to speak French fluently.";
+              answer = "I would choose to speak Bingus fluently.";
               break;
             case 160:
-              answer = "The most memorable concert I've ever attended was a Coldplay concert.";
+              answer = "The most memorable concert I've ever attended was a Bingus concert.";
               break;
             case 161:
-              answer = "If I had to describe myself in three words, they would be: curious, creative, and kind.";
+              answer = "If I had to describe myself in three words, they would be: bingus, bingus, and bingus.";
               break;
             case 162:
-              answer = "My favourite outdoor activity is hiking.";
+              answer = "My favourite outdoor activity is bingus.";
               break;
             case 163:
-              answer = "I would eat Italian cuisine for the rest of my life.";
+              answer = "I would eat Bingus cuisine for the rest of my life.";
               break;
             case 164:
-              answer = "My favourite holiday destination is Hawaii.";
+              answer = "My favourite holiday destination is Bingus.";
               break;
             case 165:
-              answer = "If I could have any job in the world, I would be a travel photographer.";
+              answer = "If I could have any job in the world, I would be a bingus photographer.";
               break;
             case 166:
-              answer = "The best gift I've ever received was a handmade scrapbook of memories.";
+              answer = "The best gift I've ever received was a handmade bingus.";
               break;
             case 167:
-              answer = "If I were a superhero, my name would be 'The Enigma'.";
+              answer = "If I were a superhero, my name would be 'The Bingus'.";
               break;
             case 168:
-              answer = "My favourite way to unwind after a long day is taking a hot bath.";
+              answer = "My favourite way to unwind after a long day is taking a hot bingus.";
               break;
             case 169:
-              answer = "If I could be any age for a week, I would be 21 because it’s the perfect balance of youth and freedom.";
+              answer = "If I could be any age for a week, I would be 21 because it’s the perfect balance of bingus and bingus.";
               break;
             case 170:
-              answer = "The strangest talent I have is being able to wiggle my ears.";
+              answer = "The strangest talent I have is being able to wiggle my ears, like bingus.";
               break;
             case 171:
-              answer = "If I could have any animal as a pet, it would be a penguin.";
+              answer = "If I could have any animal as a pet, it would be bingus.";
               break;
             case 172:
-              answer = "My favourite cartoon character is SpongeBob SquarePants.";
+              answer = "My favourite cartoon character is Bingus Bingus.";
               break;
             case 173:
-              answer = "If I could change one thing about the world, it would be ending poverty.";
+              answer = "If I could change one thing about the world, it would be more bingus.";
               break;
             case 174:
-              answer = "My favourite dessert is cheesecake.";
+              answer = "My favourite dessert is binguscake.";
               break;
             case 175:
-              answer = "If I could live in any country, it would be Italy because of its rich history and beautiful landscapes.";
+              answer = "If I could live in any country, it would be Bingus because of its rich history and beautiful landscapes.";
               break;
             case 176:
-              answer = "My favourite quote is 'To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.'";
+              answer = "My favourite quote is 'To be bingus in a world that is constantly trying to make you something else is the greatest accomplishment.'";
               break;
             case 177:
-              answer = "If I could have any car, it would be a Tesla Model S.";
+              answer = "If I could have any car, it would be a Bingus Model Sus.";
               break;
             case 178:
-              answer = "My favourite way to spend a weekend is going on a road trip.";
+              answer = "My favourite way to spend a weekend is going on a bingus trip.";
               break;
             case 179:
-              answer = "If I could meet any celebrity, it would be Leonardo DiCaprio.";
+              answer = "If I could meet any celebrity, it would be Bingus.";
               break;
             case 180:
-              answer = "My favourite type of weather is a sunny day with a light breeze.";
+              answer = "My favourite type of weather is a sunny day with a light bingus.";
               break;
             case 181:
-              answer = "If I could play any musical instrument, it would be the violin.";
+              answer = "If I could play any musical instrument, it would be the bingus.";
               break;
             case 182:
-              answer = "My favourite memory from childhood is going to the beach with my family.";
+              answer = "My favourite memory from childhood is going to the beach with my bingus.";
               break;
             case 183:
-              answer = "If I could be a famous athlete, I would play tennis.";
+              answer = "If I could be a famous athlete, I would play bingus.";
               break;
             case 184:
-              answer = "My favourite thing to do on a lazy Sunday is binge-watching TV shows.";
+              answer = "My favourite thing to do on a lazy Sunday is binge-watching bingus.";
               break;
             case 185:
-              answer = "If I could invent something, it would be a machine that cleans your house automatically.";
+              answer = "If I could invent something, it would be a bingus.";
               break;
 
         default:
