@@ -8,6 +8,7 @@ const Summary = ({ answers }) => {
   return (
     <div className="summary-container">
       <h2>Feedback Summary</h2>
+	  Thanks for your honest feedback, below is a copy of your responses:
       <div className="answer-scroll-container">
         <ul className="answer-list">
           {answerPairs.map(([questionId, { question, answer }]) => (
