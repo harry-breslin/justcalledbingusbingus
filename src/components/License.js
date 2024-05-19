@@ -11,7 +11,7 @@ function License({ onQuestionAnswered }) {
     if (countdown > 0) {
       const timer = setTimeout(() => {
         setCountdown(countdown - 1);
-      }, 1000);
+      }, 2000);
       return () => clearTimeout(timer);
     } else {
       setButtonEnabled(true);
