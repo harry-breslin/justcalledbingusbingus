@@ -12,7 +12,7 @@ const Question = ({ question, answer, onAnswerChange }) => {
   return (
     <div className="question-container">
       <h3>{question.text}</h3>
-      <input
+      <textarea
         type="text"
 		id="amongus"
         //value={answer}
