@@ -14,9 +14,9 @@ const Question = ({ question, answer, onAnswerChange }) => {
       <h3>{question.text}</h3>
       <input
         type="text"
-        value={answer}
-        onKeyDown={handleKeyDown}
-        onChange={(e) => onAnswerChange(e.target.value)}
+        //value={answer}
+        //onKeyDown={handleKeyDown}
+        //onChange={(e) => onAnswerChange(e.target.value)}
       />
     </div>
   );
