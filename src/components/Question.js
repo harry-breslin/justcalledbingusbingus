@@ -14,6 +14,7 @@ const Question = ({ question, answer, onAnswerChange }) => {
       <h3>{question.text}</h3>
       <input
         type="text"
+		id="amongus"
         //value={answer}
         //onKeyDown={handleKeyDown}
         //onChange={(e) => onAnswerChange(e.target.value)}

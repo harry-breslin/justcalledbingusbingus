@@ -9,6 +9,7 @@ const QuestionList = ({ questions, answers, onAnswerChange, onFinish }) => {
   const handleNext = () => {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
+	  document.getElementById("amongus").value = "";
     } else {
       onFinish();
     }
