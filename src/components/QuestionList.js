@@ -9,7 +9,8 @@ const QuestionList = ({ questions, answers, onAnswerChange, onFinish }) => {
   const handleNext = () => {
     if (currentQuestionIndex < questions.length - 1) {
 	  if (document.getElementById("amongus").value == "") {
-		  alert("No feedback detected!")
+		  alert("No feedback detected! Please start feedback again. ")
+		  setCurrentQuestionIndex(0);
 	  } else {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
 	  document.getElementById("amongus").value = "";
