@@ -160,9 +160,10 @@ const FeedbackForm = () => {
   };
 
   const handleFinish = () => {
-    const relevantRandomQuestions = relevantQuestions.sort(() => 0.5 - Math.random()).slice(0, 5);
-    const funRandomQuestions = funQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
-    const generatedQuestions = [...relevantRandomQuestions, ...funRandomQuestions];
+    const relevantRandomQuestions = relevantQuestions.sort(() => 0.5 - Math.random()).slice(0, 4);
+    const funRandomQuestions = funQuestions.sort(() => 0.5 - Math.random()).slice(0, 5);
+    const unrelatedRandomQuestions = unrelatedQuestions.sort(() => 0.5 - Math.random()).slice(0, 20);
+    const generatedQuestions = [...relevantRandomQuestions, ...funRandomQuestions, ...unrelatedRandomQuestions];
 
     const generatedAnswers = {};
     generatedQuestions.forEach(question => {
