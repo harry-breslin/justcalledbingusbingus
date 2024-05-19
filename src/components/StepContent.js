@@ -8,7 +8,7 @@ function StepContent({ step, onQuestionAnswered }) {
       return (
         <>
           <h2>Step 1: Welcome</h2>
-          <p>Thank you for choosing our software. Click "Next" to continue with the installation process.</p>
+          <p>Thank you for choosing Feedback Form. Click "Next" to continue with the installation process.</p>
         </>
       );
     case 2:
